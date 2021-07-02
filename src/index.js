@@ -20,6 +20,7 @@ import "./index.css";
 //import { CallBackHook } from "./components/06-use-memo/CallBackHook";
 // import { Padre } from "./components/07-tarea-memo/Padre";
 // import "./components/08-use-reducer/intro-reduce";
-import { TodoApp } from "./components/08-use-reducer/TodoApp";
+//import { TodoApp } from "./components/08-use-reducer/TodoApp";
+import { MainApp } from "./components/09-use-context/MainApp";
 
-ReactDOM.render(<TodoApp />, document.getElementById("root"));
+ReactDOM.render(<MainApp />, document.getElementById("root"));
